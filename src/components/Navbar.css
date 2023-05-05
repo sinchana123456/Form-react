@@ -1,0 +1,96 @@
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-button {
+    margin-right: 70rem;
+    color: rgb(225, 218, 218);
+    font-size: 2rem;
+  }
+  .home-button1 {
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    gap: 8px;
+    height: 36px;
+    left: 86.88%;
+    right: 8.75%;
+    top: calc(50% - 36px/2);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+  }
+.badge{
+    border-radius: 3rem;
+}
+
+@media (max-width: 600px) {
+    nav {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
+      }
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .home-button {
+        margin-right: 18rem;
+        color: rgb(225, 218, 218);
+        font-size: 2rem;
+      }
+      .home-button1 {
+        border-radius: 2rem;
+      }
+    
+    .badge{
+        border-radius: 3rem;
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+    nav {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
+      }
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .home-button {
+        margin-right: 65rem;
+        color: rgb(225, 218, 218);
+        font-size: 2rem;
+      }
+      .home-button1 {
+        border-radius: 2rem;
+      }
+    
+    .badge{
+        border-radius: 3rem;
+    }
+    
+  }
+
